@@ -1,19 +1,18 @@
+## Home Page
 ![The home page](coolblogHome.png)
 
+## Search page and other pages
 ![The search page](searchpage.png)
 
 # Table of Contents
 1. [Introduction](#cool-tech-blog)
 2. [Features](#features)
-    - [Website Features](#in-this-project-i-created-a-dynamic-website-for-a-fictitious-company-called-cool-tech-that-includes-the-following-features)
-    - [App Pages](#the-app-must-include-the-following-pages)
-    - [Database Design](#designing-an-appropriate-database-that-stores-articles-their-categories-and-their-tags)
 3. [Skillset](#skillset)
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Credits](#credits)
 
-# Cool-Tech Blog
+# Cool-Tech-Blog
 Welcome to the Cool-Tech Blog repository, where we keep the dynamic 
 website code for tech enthusiasts. Our blog specialises in digestible 
 information about all things technology for popular consumption. 
@@ -42,13 +41,13 @@ Designing an appropriate database that stores articles, their categories, and th
 Check my [Cool Tech ERD](CoolTechERD.pdf) 
 outlining my DB design.
 
-
-
 ## Skillset
 This project requires an understanding of:
 
 PHP (rendering web content on the backend)
+
 Laravel (do the web app heavy lifting)
+
 SQL Server (implement persistent data management)
 
 ## Installation
