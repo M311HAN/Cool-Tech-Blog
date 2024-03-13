@@ -1,0 +1,180 @@
+
+/* Applies Ubuntu font style to all elements for consistency */
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Styles for all anchor tags: removes underline, sets text color to black */
+a {
+    text-decoration: none;
+    color: black;
+}
+/* Specific styles for legal links: adds underline and changes color to blue */
+a.legal {
+    text-decoration: underline;
+    color: blue;
+}
+/* Styles for header links: makes them block elements with no padding or margin */
+a.header {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+/* Adds underline to links with the 'underline' class */
+a.underline {
+    text-decoration: underline;
+}
+/* Styles for header element: large font size, bold weight, white color text, centered */
+.header {
+    font-size: 40pt;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    border: solid 1px #000;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    background-image: url(../css/background.jpg);
+}
+
+/* Footer styles: positions at the bottom, black border, padding, and custom background */
+div.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    border: solid 1px #000;
+    padding: 1rem;
+    margin: 1.5rem 0 0 0;
+    background-image: url(../css/background.jpg);   
+}
+
+/* Button styles within footer: rounded borders, gray background */
+button.forsearch, .redir {
+    border: solid 1px #000;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #f5f5f5; 
+}
+/* Hover effect for buttons: darker background */
+button.forsearch:hover, .redir:hover {
+    background-color: #e0e0e0; 
+}
+/* Styles for divs that group pages: flex display for horizontal alignment, gap for spacing */
+div.different-pages {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+/* Center-aligns copyright text with a margin */
+div.copyright {
+    text-align: center;
+    margin: 1.5rem;
+}
+
+/* Styles for the cookie consent banner: fixed at bottom, light background, shadow */
+.cookie-consent {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #505962;
+    z-index: 1000;
+    border-top: 1px solid #e7e7e7;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px; 
+    text-align: center; 
+}
+
+
+.cookie-consent p {
+    margin: 0;
+    font-size: 0.9em;
+}
+.cookie-consent button {
+    background-color: #3273dc;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    margin-left: -16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-family: 'Ubuntu', sans-serif; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+/* Button styles within the cookie consent banner: blue background, white text */
+.cookie-consent button:hover {
+    background-color: #2757a6;
+}
+/* Responsive styles for the cookie consent banner on smaller screens */
+@media (max-width: 768px) {
+    .cookie-consent {
+        padding: 1em 0.5em;
+    }
+
+    .cookie-consent button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* Styles for divs that display tags: padding around tags */
+div.tags {
+    padding: 1rem;
+}
+/* Styles for individual tags: border, rounded corners, padding, and a semi-transparent background */
+span.tag {
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 0.3rem;
+    margin: 0 0.3rem;
+    background-color: rgb(37, 150, 190, 0.45);
+}
+
+span.tag:hover {
+    background-color: rgb(37, 150, 190, 0.90);
+}
+
+div.style, body.legal {
+    width: 65%;
+    margin: auto;
+    text-align: justify;
+}
+
+div.style {
+    width: 65%;
+    margin: auto;
+}
+
+h1.searchheading {
+    text-align: center;
+}
+
+div.searches {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button.forsearch {
+    margin: 0.5rem 0 0 0;
+}
+
+input.inputsearch {
+    margin: 0.5rem 0;
+    padding: 1rem 1rem;
+}
+
+td {
+    padding: 7px;
+}
+
+table, thead {
+    border: 1px solid #000;
+}
