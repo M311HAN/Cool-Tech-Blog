@@ -6,8 +6,8 @@
 
 # Table of Contents
 1. [Introduction](#cool-tech-blog)
-2. [Features](#features)
-3. [Skillset](#skillset)
+2. [Skillset](#skillset)
+3. [Features](#features)
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Credits](#credits)
