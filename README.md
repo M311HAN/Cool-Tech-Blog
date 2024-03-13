@@ -22,24 +22,27 @@ article on the search page.
 
 In this project I created a dynamic website for a fictitious company called Cool Tech that includes the following features:
 
-The website must distinguish between article categories, such as:
-Hardware Reviews
-Software Reviews
-Opinion Pieces
-Tech News
-Articles are to be taggable (for improved Search Engine Optimization)
+- The website must distinguish between article categories, such as:
+  - Hardware Reviews
+  - Software Reviews
+  - Opinion Pieces
+  - Tech News
 
-The app must include the following pages:
-Home Page
-Article View Page
-Category View Page (only articles of a certain category are listed)
-Tag View Page (only articles of a certain tag are listed)
-"About Us" Page
-Legal Page
-Designing an appropriate database that stores articles, their categories, and their tags.
+- Articles are to be taggable (for improved Search Engine Optimization)
 
-Check my [Cool Tech ERD](CoolTechERD.pdf) 
-outlining my DB design.
+- The app must include the following pages:
+  - Home Page
+  - Article View Page
+  - Category View Page (only articles of a certain category are listed)
+  - Tag View Page (only articles of a certain tag are listed)
+  - "About Us" Page
+  - Legal Page
+
+- Designing an appropriate database that stores articles, their categories, and their tags.
+
+
+Please see [Cool Tech ERD](CoolTechERD.pdf) 
+for a detailed understanding of the DB design.
 
 ## Skillset
 This project requires an understanding of:
