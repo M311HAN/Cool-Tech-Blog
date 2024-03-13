@@ -7,38 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-![The home page](coolblogHome.png)
-
-![The search page](searchpage.png)
-
-
-# Cool-Tech Blog
-Welcome to the Cool-Tech Blog repository, where we keep the dynamic website code for tech enthusiasts. Our blog specialises in digestible information about all things technology for popular consumption. It uses a seeder filer that connects to the database using mysql where it creates manual tags in the table so the user can view each article on the search page. Check my [Cool Tech ERD](CoolTechERD.pdf) outlining my DB design.
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/M311HAN/Cool-Tech-Blog.git
-
-# Navigate into the cloned directory:
-
-cd Cool-Tech-Blog
-
-```
-## Features
-
-Dynamic article pages with categories and tags.
-Search functionality for articles by ID, category, and tag.
-
-Cookie notice for compliance and transparency.
-A comprehensive footer with quick links and copyright notice.
-
-## Credits
-
-This project was created by Melihhan (https://github.com/M311HAN) as well as the use of Laravel. For more details, questions, or feedback, reach out through GitHub.
-
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
